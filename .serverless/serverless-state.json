@@ -160,7 +160,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/example/dev/1597417558224-2020-08-14T15:05:58.224Z/example.zip"
+                "S3Key": "serverless/example/dev/1597432919006-2020-08-14T19:21:59.006Z/example.zip"
               },
               "FunctionName": "example-dev-your_lambda_fn",
               "Handler": "your_lambda_fn.handler",
@@ -178,14 +178,14 @@
               "YourUnderscorelambdaUnderscorefnLogGroup"
             ]
           },
-          "YourUnderscorelambdaUnderscorefnLambdaVersion6bcZlGzgHCyP5EOLrqjrwF7DWoaAMb7i1CYqyQRn0": {
+          "YourUnderscorelambdaUnderscorefnLambdaVersionmeLlUqabWmku69UJ8kMYQ4Sati6cJVvyNLYjbM8M": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "YourUnderscorelambdaUnderscorefnLambdaFunction"
               },
-              "CodeSha256": "Ot9InqQSH7cGUKjfTlOCX2LUeQZmCsSW5abi/dHFcoI="
+              "CodeSha256": "nyxiTdYgv53B7YHwS1MN2bAKRge24f+yv31ikP6W0O8="
             }
           }
         },
@@ -198,7 +198,7 @@
           "YourUnderscorelambdaUnderscorefnLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "YourUnderscorelambdaUnderscorefnLambdaVersion6bcZlGzgHCyP5EOLrqjrwF7DWoaAMb7i1CYqyQRn0"
+              "Ref": "YourUnderscorelambdaUnderscorefnLambdaVersionmeLlUqabWmku69UJ8kMYQ4Sati6cJVvyNLYjbM8M"
             }
           }
         }
@@ -286,7 +286,7 @@
         "timeout": 6,
         "runtime": "python3.7",
         "vpc": {},
-        "versionLogicalId": "YourUnderscorelambdaUnderscorefnLambdaVersion6bcZlGzgHCyP5EOLrqjrwF7DWoaAMb7i1CYqyQRn0"
+        "versionLogicalId": "YourUnderscorelambdaUnderscorefnLambdaVersionmeLlUqabWmku69UJ8kMYQ4Sati6cJVvyNLYjbM8M"
       }
     },
     "serviceFilename": "serverless.yml",
@@ -295,7 +295,7 @@
     "artifact": "/Users/jiclotus/Desktop/simple-selenium-serverless-script/.serverless/example.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/example/dev/1597417558224-2020-08-14T15:05:58.224Z",
+    "artifactDirectoryName": "serverless/example/dev/1597432919006-2020-08-14T19:21:59.006Z",
     "artifact": "example.zip"
   }
 }

@@ -6,8 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-selenium = "*"
 pylint = "*"
+selenium = "2.37"
 
 [requires]
 python_version = "3.7"
