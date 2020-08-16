@@ -1,0 +1,13 @@
+service: example
+
+provider:
+  name: aws
+  runtime: python3.6
+  region:  us-east-1
+
+functions:
+  your_lambda_fn:
+    handler: your_lambda_fn.handler
+    layers:
+      - ${cf:selenium-layer-dev.SeleniumLayerExport}
+      - ${cf:selenium-layer-dev.ChromedriverLayerExport}
