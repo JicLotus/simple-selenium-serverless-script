@@ -1,20 +1,18 @@
 
-# Overall
+## Overall
 
+Just a simple repo that uses serverless framework to run a python selenium code on AWS lambda
 
+### Requirements
 
-## How to install saved dependencies
+Install serverless framweork
 
-pipenv install
+### How to make a deployment
 
-- or if you want to install using lock file
+Just for first time go to seleniumLayer directory and make:
 
-pipenv sync
+´´´sls deploy´´´
 
-## How to add dependencies
+and then go to lambda directory and run again:
 
-pipenv install YOUR_DESIRED_DEPENDENCY (Eg: pipenv install Selenium)
-
-## How to get into virtual env (PyCharm get into that when you have your console opened)
-
-pipenv shell
+´´´sls deploy´´´
