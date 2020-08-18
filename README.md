@@ -11,8 +11,8 @@ Install serverless framweork
 
 Just for first time go to seleniumLayer directory and make:
 
-´´´sls deploy´´´
+serverless deploy
 
 and then go to lambda directory and run again:
 
-´´´sls deploy´´´
+serverless deploy
