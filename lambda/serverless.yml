@@ -4,7 +4,8 @@ provider:
   name: aws
   runtime: python3.6
   region:  us-east-1
-
+  environment:
+    PATH: '/var/lang/bin:/usr/local/bin:/usr/bin/:/bin:/opt/bin:/opt'
 functions:
   your_lambda_fn:
     handler: your_lambda_fn.handler
